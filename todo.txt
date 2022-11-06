@@ -1,0 +1,7 @@
+* changer la taille de la police du bandeau 
+* choisir les titres du bandeau 
+* changer les images du carousel 
+* définir une palette de couleur 
+* trouver des images 
+* trouvre un logo ? 
+

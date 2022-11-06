@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Liberty | Liberté d'Expression</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+
+        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/style2.css" rel="stylesheet" media="only screen and (max-width: 1024px)" />
+    </head>
+    <body id="page-top">
+        <script type="text/javascript">
+                    $(document).ready(function() {
+            $(window).scroll(function() {
+            if ($(this).scrollTop() > 20) {
+            $('#toTopBtn').fadeIn();
+            } else {
+            $('#toTopBtn').fadeOut();
+            }
+            });
+
+            $('#toTopBtn').click(function() {
+            $("html, body").animate({
+            scrollTop: 0
+            }, 1000);
+            return false;
+            });
+            });
+        </script>
+        <a href="#" id="toTopBtn" class="cd-top text-replace js-cd-top cd-top--is-visible cd-top--fade-out" data-abc="true"></a>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="./images/Logo.jpg" alt="Logo" /></a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ml-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ml-auto">
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Présentation</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Articles</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">Equipe</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="mobilehead">
+        	<img src="./images/main_banner.png" class="d-block w-100" alt="main_banner">
+        </header>
+
+        <header class="masthead">
+           <div id="carouselExampleCaptions" class="carousel slide " data-ride="carousel" data-interval="5000">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+  </ol>
+
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./images/main_banner.png" class="d-block w-100" alt="main_banner">
+      <div class="carousel-caption d-none d-md-block">
+      	
+      </div>
+    </div>
+      <div class="carousel-item">
+      <img src="./images/norvege.jpg" class="d-block w-100" alt="norvege">
+      <div class="carousel-caption d-none d-md-block">
+       <div class="txt_caroussel">
+        	<h5>Norvège</h5>
+        	<p>El-Dorado de la presse</p>
+        </div>
+         <a class="btn btn-primary btn-lg portfolio-link" data-toggle="modal" href="#portfolioModal1" role="button">En savoir plus</a>
+      </div>
+      
+    </div>
+    <div class="carousel-item">
+      <img src="./images/viet.jpg" class="d-block w-100" alt="viet">
+      <div class="carousel-caption d-none d-md-block">
+       <div class="txt_caroussel">
+        	<h5>Vietnam</h5>
+        	<p>Les géants du Web à la botte du Gouvernement</p>
+        </div>
+         <a class="btn btn-primary btn-lg portfolio-link" data-toggle="modal" href="#portfolioModal5" role="button">En savoir plus</a>
+
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+        </header>
+        <!-- Services-->
+        <section class="page-section bg-light" id="services">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Qui sommes nous ?</h2>
+                    <h3 class="section-subheading text-muted">Notre journal et nos méthodes de travail</h3>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fa fa-bullseye fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Nos Objectifs</h4>
+                        <p class="text-muted">Notre journal a pour but d'éveiller les consciences en vous informant à travers des reportages poignants, à travers le monde pour vous apporter différents points de vue.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fa fa-user-circle fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Nos Lecteurs</h4>
+                        <p class="text-muted">Notre journal s'adresse à toute personne, jeune ou agée, souhaitant s'informer sur le respect de la liberté d'expression dans le monde.<br/>En vous abonnant à notre journal, nous vous proposons des exclusivités.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Notre Journal</h4>
+                        <p class="text-muted">Notre équipe vous propose des articles à but informatif, donc d'un point de vue neutre. Nos journalistes travaillent en étroite collaboration avec des reporters d'associations reconnues.  </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Portfolio Grid-->
+        <section class="page-section bg-light2" id="portfolio">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Nos Articles</h2>
+                    <h3 class="section-subheading text-muted">Nos derniers reportages</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="images/norvege_article.jpg" alt="norvege" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Norvège</div>
+                                <div class="portfolio-caption-subheading text-muted">El-Dorado de la presse</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="images/usa.jpg" alt="usa" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Etat-Unis</div>
+                                <div class="portfolio-caption-subheading text-muted">Une liberté d’expression non garantie</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="images/tunisie.jpg" alt="tunisie" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Tunisie</div>
+                                <div class="portfolio-caption-subheading text-muted">Nouvelle liberté d'une ancienne dictature</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="images/russie.jpg" alt="russie" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Russie</div>
+                                <div class="portfolio-caption-subheading text-muted">Une liberté d'expression muselée</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="images/vietnam.jpg" alt="vietnam" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Vietnam</div>
+                                <div class="portfolio-caption-subheading text-muted">Internet et presse sous surveillance</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/06-thumbnail.jpg" alt="img_fluid" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Prochainement...</div>
+                                <div class="portfolio-caption-subheading text-muted">En cours d'écriture</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Team-->
+        <section class="page-section bg-light" id="team">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Notre équipe</h2>
+                    <h3 class="section-subheading text-muted">Découvrez nos rédacteurs</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="team1" />
+                            <h4>Kay Garland</h4>
+                            <p class="text-muted">Redactrice en Chef</p>
+                            <a class="btn btn-dark btn-social mx-2" href="https://twitter.com/home"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/2.jpg" alt="team2" />
+                            <h4>Larry Parker</h4>
+                            <p class="text-muted">Reporter international</p>
+                            <a class="btn btn-dark btn-social mx-2" href="https://twitter.com/home"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="team3" />
+                            <h4>Diana Petersen</h4>
+                            <p class="text-muted">Reporter international</p>
+                            <a class="btn btn-dark btn-social mx-2" href="https://twitter.com/home"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Notre équipe est composée de plusieurs reporters, reconnus dans le domaine journalistique. Ils vous proposent des articles de qualité au plus près de la réalité.</p></div>
+                </div>
+            </div>
+        </section>
+        <!-- Clients-->
+
+<div class="jumbotron">
+    <div class="contour">
+        <h1 class="display-4">Restez au courant !</h1>
+        <p class="lead">Nous vous proposons de vous informer tous les mois de l'actualité et de la liberté de la presse en particulier.</p>
+        <hr class="my-4">
+        <p>Pour rester informé de l'actualité dans le monde, rejoingnez Liberty en vous abonnant.</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Abonnez vous à notre journal</a>
+  </div>
+</div>
+        <!-- Contact-->
+        <section class="page-section" id="contact">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Contactez nous</h2>
+                    <h3 class="section-subheading text-muted">Votre opinion nous intéresse</h3>
+                </div>
+                <form id="contactForm" name="sentMessage" novalidate="novalidate">
+                    <div class="row align-items-stretch mb-5">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input class="form-control" id="name" type="text" placeholder="Votre Nom *" required="required" data-validation-required-message="Please enter your name." />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" id="email" type="email" placeholder="Votre adresse mail *" required="required" data-validation-required-message="Please enter your email address." />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="form-group mb-md-0">
+                                <input class="form-control" id="phone" type="tel" placeholder="Votre n° de téléphone *" required="required" data-validation-required-message="Please enter your phone number." />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group form-group-textarea mb-md-0">
+                                <textarea class="form-control" id="message" placeholder="Votre Message *" required="required" data-validation-required-message="Please enter a message."></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <div id="success"></div>
+                        <button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">Envoyez</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-left Copyright">Copyright © Liberty 2020</div>
+                    <div class="col-lg-4 my-3 my-lg-0">
+						 <a class="btn btn-dark btn-social mx-2" href="https://twitter.com/home"><i class="fab fa-twitter"></i></a>
+                         <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                         <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <div class="col-lg-4 text-lg-right">
+                        <a class="mr-3" href="#!">Politique de confidentilité</a>
+                        <a href="#!">Termes d'utilisations</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Portfolio Modals-->
+        <!-- Modal 1-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">Norvège</h2>
+                                    <p class="item-intro text-muted">El-Dorado de la presse</p>
+                                    <img class="img-fluid d-block mx-auto" src="images/norvege.jpg" alt="norvege" />
+                                    <p>La Norvège est considérée comme <b>l’eldorado de la presse.</b><br>
+                                        En effet, le pays se glisse pour la <b>4ème année consécutive à la 1ère place du classement mondiale de la liberté de la presse d’RSF.</b> En réalité, ce n’est pas que la Norvège, mais l’ensemble des pays nordique qui ont su s’imposer comme étant des modèles à suivre en ce qui concerne la liberté de la presse. En effet, la Finlande, le Danemark et la Suède occupent respectivement la 2ème,3ème et 4ème place du classement.</p>
+                                    <h3>Comment la Norvège fait-elle pour avoir un environnement aussi propice pour les acteurs de l’information ?</h3>
+                                    <p>La liberté de la presse fait partie intégrante de la liberté d’opinion et d’expression et est garantie depuis longtemps sur la scène internationale. En effet, <b>il existe de nombreuses lois consacrées à la protéger</b>, la protection des sources d’information des journalistes est donc censée être assurée, sans aucune contrainte.</p>
+                                    <p>Néanmoins, les atteintes à cette liberté de la presse sont nombreuses dans un grand nombre de pays. Les entraves au métier de journaliste, comme la capture, la torture ou la mise à mort n’est bien entendu pas un problème dans la société norvégienne. Malgré cela, l’entrave à la liberté de pensée ou à l’indépendance des rédactions est tout à fait envisageable dans ce pays nordique: pressions fiscales, financières ou politiques pourraient émerger.<br>
+                                        Mais rien de tout cela est présent ce qui fait de la Norvège la reine de la liberté de la presse depuis <b>4 années consécutives</b> d’après le classement RSF. </p>
+                                    <p>Dans l’indicateur RSF, 0 correspond à une absence d’entrave à l’action de la presse et 100 à une répression totale et contrôlé de celle-ci. Or la Norvège affiche un score exceptionnel de <b>7,84</b> dans le classement de 2020</p>
+                                    <img class="img-fluid d-block mx-auto" src="images/Top_10_RSF_2020.png" alt="Classement Norvège RSF 2020" />
+                                    <p>Il existe plusieurs raisons à cet environnement favorable en Norvège.<br>
+                                        Tout d’abord, la Norvège est un pays où la <b>culture de l’information est fortement développée.</b> En effet internet atteint un <b>taux de pénétration de 98 % sur le territoire norvégien</b>, ce qui fait d’elle l’un des pays les plus « branchés » du monde, contribuant ainsi au développement des médias en ligne. En effet, <b>la population a tendance à favoriser un fort impact de la presse dans la société</b> ce qui explique que la majorité des norvégiens payent pour avoir accès à l’information de manière dématérialisé.</p>
+                                    <p>A titre de comparaison, alors qu’un peu moins de <b>1 français sur 10</b> paie pour s’informer en ligne, ce chiffre est de <b>3 sur 10 en Norvège.</b> De plus, l’appareil législatif est un soutien important pour de la liberté de la presse. Effectivement les Norvégiens ont beaucoup moins tendance à légiférer sur tout contrairement aux français, par exemple, il y a quelques mois, une ministre souhaitait mettre en place une loi pour lutter contre les fakes news mais le projet n’a pas abouti ce qui montre la Norvège ne souhaite pas imposer de contrainte à ses journalistes.</p>
+                                    <img class="img-fluid d-block mx-auto" src="images/Norvege_taux_pen.png" alt="Taux de pénétration Norvège" />
+                                    <p>Mais cette tendance n’empêche pas la Norvège à prendre des mesures quand il s’agit de lutter contre la concentration des médias contrairement à des pays comme la France, c’est d’ailleurs l’une des raisons pour lesquelles la France n’arrive pas au niveau des pays nordiques d’après Prem Samy, responsable du classement RSF. En 2016, la loi sur la propriété des médias de 1997 qui interdit aux grands groupes de presse de posséder des médias qui <b>totalisent plus de 40 % de l’audience télévisée</b>, radiophonique ou de la presse quotidienne a été remplacée par la loi sur la transparence de la propriété des médias.</p>
+                                    <p>Celui-ci est beaucoup moins restrictif et n’impose aucune limite chiffrée, mais permet à Medietilsynet, l’autorité norvégienne des médias, de collecter les informations sur la structure de la propriété et les rendre accessibles au public. La presse norvégienne respect également de manière méticuleuse le <b>Vær Varsom-plakaten</b> qui est un ensemble de normes éthiques dictées par l’Association de la presse norvégienne afin de lutter contre la publicité cachée et invitant à prendre des précaution lors de la couverture médiatique des suicides et tentatives de suicide et les affaires pénales.</p>
+                                        <img class="img-fluid d-block mx-auto" src="images/Vær Varsom-plakaten.jpg" alt="Vær Varsom-plakaten" />
+                                    <p>La Norvège se démarque également par ses <b>investissements dans des infrastructures qui favorisent un écosystème favorable au journalisme</b>. Effectivement, la Norvège est le premier pays du monde à s’être doté de la <b>radio numérique terrestre</b>, qui permet une réception plus stable. Il s’agit d’un système que Kenneth Andresen, vice-président du groupe norvégien chargé des opérations radios, voit comme une façon d’améliorer la durée de vie du média. </p>
+                                    <p>La Norvège se classe donc à la première place du classement mondiale RSF grâce à sa culture de l’information développé, son appareil législatif qui est d’un soutien important et ses investissements dans des infrastructures qui favorisent <b>un écosystème propice au journalisme.</b></p>
+                                    <p>Néanmoins, ce n’est pas pour autant que la Norvège ne fait pas face à des problèmes en ce qui concerne la liberté de la presse.<br>
+                                        Par exemple, la haine contre le gouvernement, le harcèlement, les attaques personnelles et les déclarations menaçantes contre les individus étaient devenus <b>monnaie courante sur les réseaux sociaux.</b> Le gouvernement essaye donc de trouver un moyen de lutter contre ce phénomène afin d’assurer la sécurité des journalistes pour <b>éviter l’autocensure liée à ces menaces.</b></p>
+                                        <img class="img-fluid d-block mx-auto" src="images/reseaux_sociaux.jpg" alt="Réseaux Sociaux" />
+                                    <p>De plus, <b>la confiance dans le système politique s’est également affaiblie récemment.</b> Effectivement, une initiative populaire a été organisée contre l’article 185 du code pénal. Alors qu’il a pour objectif la prévention des déclarations haineuses et discriminantes, sa rédaction laisse planer un doute sur des conséquences possibles sur la liberté d’expression. Récemment, l’un des médias les plus importants du pays, <b>Verdens Gang</b>, a poursuivi le Procureur général en collaboration avec <b>l’Association des rédacteurs de Norvège et le Syndicat des journalistes</b>, qui lui avait refusé l’accès à des documents dans une affaire impliquant l’utilisation d’armes à feu par la police. Un obstacle qualifié d’inadmissible selon les représentants du journal, qui considèrent que leur enquête sur les méthodes de la police constitue le <b>cœur même de la fonction de contrôle des médias.</b> Il y a également d’autres petits problèmes qui persistent, comme la baisse des subventions à la presse. En effet, depuis 2017, les journaux locaux et ceux à faible tirage ont vu leurs <b>aides baisser.</b>  </p>
+                                    <ul class="list-inline">
+                                        <li>Date: Janvier 2021</li>
+                                        <li>Auteur: Larry Parker</li>
+                                    </ul>
+									<button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fa fa-search mr-1"></i>
+										<a class="portfolio-link sources" data-toggle="modal" href="#sourcesNorvege">
+                                        Les sources de cet article
+										</a>
+                                    </button>
+									<br/>
+									<br/>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Retour à la page principale
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 2-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">Etats-Unis</h2>
+                                    <p class="item-intro text-muted">Une liberté d’expression non garantie</p>
+                                    <img class="img-fluid d-block mx-auto" src="images/usa_paysage.jpg" alt="Payasage américain" />
+									<p>Les Etats-Unis d’Amérique garantissent le droit à la liberté d’expression dans leur <b>Constitution</b> : il s’agit même du Premier Amendement. Celui-ci affirme que « le Congrès ne fera aucune loi qui touche l’établissement ou interdise le libre exercice d’une religion, <b>ni qui restreigne la liberté de la parole ou de la presse</b>, ou le droit qu’a le peuple de s’assembler paisiblement et d’adresser des pétitions au gouvernement pour la réparation des torts dont il a à se plaindre ».</p>
+									<img class="img-fluid d-block mx-auto" src="images/constitution_usa.jpg" alt="Constitution Américaine" />
+									<p>De plus, il existe des lois interdisant la censure d’article en fonction de leur contenu, les restrictions fondées sur le contenu sont généralement inacceptables. Néanmoins, les articles ou déclarations incitant à la violence imminente, les menaces concrètes et les discours diffamatoires peuvent être soumis à des vérifications voir même des interdictions de publication en fonction de la nature du texte.</p> 
+									<hr width="500" size="6" align=center color ="#EAE1D1"/>
+									<p>Bien que la description faite semble être propice au développement de la liberté d’expression, <b>la vérité est tout autre</b>.</p>
+									<p>Les Etats-Unis ne sont pas un territoire aussi idyllique qu’il ne le laisse paraître : les Etats-Unis ont été déclarés <b>45 sur 180 pays</b> sur un classement de la liberté d’expression de la presse d’après Reporter Sans Frontières, en 2020.</p>
+									<img class="img-fluid d-block mx-auto" src="images/usa_protest.jpg" alt="Protestations Etats-Unis" />
+									<p>Depuis l’élection du président Donal Trump en 2016, on ne remarque <b>aucune amélioration dans le domaine de la liberté de la presse</b>. Les journalistes ont été arrêtés, agressés physiquement, dénigrés publiquement lors des dernières années.</p>
+									<p>La raison principale de cette agressivité envers les journalistes, les lanceurs d’alertes est le président Trump lui-même ainsi que ses associés du gouvernement fédéral. Ces personnes ont démontré que les Etats Unis sont l’un des pays les plus ardents en termes de défense de la liberté, que cela soit à l’intérieur ou à l’extérieur du pays. Pourtant, on remarque <b>un sentiment anti-presse</b> qui se transmet entre les institutions et les gouvernements locaux.</p>
+									<img class="img-fluid d-block mx-auto" src="images/graph_usa.png" alt="Bilan journalistique des Etats-Unis" />
+									<p>Lors de son mandat, Donald Trump a décidé de modifier les formes traditionnelles d’accès à la presse. De plus, la possibilité pour les journalistes de poser des questions à l’administration américaine est désormais limitée. Le gouvernement fédéral refuse l’accès à des événements officiels organisés pour la presse à certains journalistes depuis mars 2019.</p>
+									<p>Les journalistes interdits d’accès à ces événements officiels sont des journalistes présents sur un document d’Etat secret qui aurait fuité. Ce document serait <b>une base de données sur les journalistes et activistes considérés comme des ennemis pour le gouvernement</b>. Ces personnes font également l’objet d’interrogatoires lors du passage de certains points de frontière entre les Etats-Unis et le Mexique.</p>
+									<img class="img-fluid d-block mx-auto" src="images/trump.jpg" alt="Président des Etats-Unis" />
+									<p>Le climat politique qui règne aux USA depuis l’élection de Trump affecte la presse. La critique du pouvoir politique est devenue très risquée pour la profession. On peut voir <b>des renoncements en termes de liberté éditoriale</b> (comme pour le New York Times) : à la suite de critique lors d’une publication, le journal a dû supprimer les articles considérés comme offensant envers le pouvoir politique. Ce cas n’est qu’un exemple parmi d’autres.</p>
+									<p>Un autre exemple montrant un recul de la liberté d’expression aux Etats-Unis est <b>l’affaire de Julian Assange</b> : en avril 2019, Julian Assange, cofondateur du site Wikileaks, a été inculpé de 17 chefs d’accusation relevant de l’Espionnage Act (loi de 1917). Le site Wikileaks est un site publiant des documents sensibles sur les gouvernements. On retrouvait sur le site la vidéo Collateral murder, tournée lors de la guerre d’Afghanistan, montrant au monde les crimes de guerre des Etats-Unis et de leurs alliés lors de cette guerre. Cette arrestation est un exemple envoyé à tous les journalistes qui seraient amené à publier des informations gouvernementales d’intérêt public.</p>
+									<img class="img-fluid d-block mx-auto" src="images/wikileaks.jpg" alt="Wikileaks" />
+									<p><b>Bilan :</b></p>
+									<p>Bien que le bilan soit un peu terne, il est important de souligner que malgré de nombreuses agressions physiques, <b>aucun journaliste ou activiste n’a été tué sur le sol américain</b> cette année ce qui est un point très important et positif.</p>
+                                    <ul class="list-inline">
+                                        <li>Date: Août 2020</li>
+                                        <li>Auteur: Diana Petersen</li>
+                                    </ul>
+									<button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fa fa-search mr-1"></i>
+										<a class="portfolio-link sources" data-toggle="modal" href="#sourcesUSA">
+                                        Les sources de cet article
+										</a>
+                                    </button>
+									<br/>
+									<br/>													
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Retour à la page principale
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 3-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">Tunisie</h2>
+                                    <p class="item-intro text-muted">La Tunisie est un pays ayant une liberté d'expression, mais elle dort donne dictature....</p>
+                                    <img class="img-fluid d-block mx-auto" src="images/tunisie_revolution.png" alt="revolt" />
+									<p>La Tunisie est une <b>ancienne dictature</b>. Avant la liberté d'expression en Tunisie n'existait pas : on ne pouvait rien dire. Depuis le départ de Ben Ali en 2011, cette dictature s'est transformée en <b>démocratie</b>. Avec ce changement de régime, le pays ne connaît que depuis peu la liberté d'expression.</p>
+									<p>Pour expliquer cette nouvelle situation, commençons par regarder comment est définie la liberté d'expression en France. En France, depuis longtemps, le droit à la liberté d'expression est acquis, donc les citoyens ont conscience de ce droit.
+									<p>Cependant, en Tunisie, ce droit a été acquis très récemment. Les Tunisiens ont donc <b>du mal à appréhender les limites</b> de cette nouvelle liberté. Cette avancée sociale permet aux Tunisiens de s'exprimer librement, mais ils ont du mal à voir où est ce que cette liberté "s'arrête".</p>
+									<p>On dit souvent que "sa liberté s'arrête là où celle d'autrui commence". En Tunisie, les habitants ont du mal à faire la différence entre <b>"liberté d'expression"</b> et <b>"parler à tort et à travers"</b>.</p>
+									<img class="img-fluid d-block mx-auto" src="images/benali.png" alt="benali" />
+									<p>Cette volonté de parler sans pour autant respecter ce droit est dû au <b>changement brutal de gouvernement</b> : en passant d'une dictature où la liberté d'expression est fortement restreinte voir interdite, à un régime où l'expression de son opinion peut être synonyme de peine de mort à une démocratie où la liberté d'expression est garantie, les limites changent brutalement. Il faut donc un <b>temps d'adaptation</b> pour trouver un juste-milieu entre ces deux extrêmes.</p>
+									<p>Sous la dictature, les Tunisiens ne pouvaient penser par eux-mêmes ou émettre un avis personnel sur le régime politique. L'opinion publique était muselée et tous devaient suivre l'opinion énoncée par le gouvernement. Il n'y avait qu'<b>une opinion pour tout le peuple</b>.</p>
+									<p>Cependant, le principe de la liberté d'expression, c'est que chacun est libre d'énoncer ce qu'il pense, sans risque. En reprenant le problème de limites de la liberté d'expression, on se retrouve dans une situation où chacun dit ce qu'il pense sans limite et sans pour autant écouter son voisin.</p>
+									<img class="img-fluid d-block mx-auto" src="images/journaliste.gif" alt="journalist" />
+									<p>Pour finir, le changement de gouvernement étant récent, les <b>moeurs sont en transition</b>, ce qui signifie que, malgré cette liberté d'expression, la peur d'être entendu persiste et les Tunisiens se censurent encore, car comme on pouvait l'entendre là-bas « les murs ont des oreilles »...</p>
+									<p>Il faudra donc du <b>temps</b> et de l'<b>implication</b> des Tunisiens pour que la liberté d'expression s'améliore dans ce pays.</p>
+                                    <ul class="list-inline">
+                                        <li>Date: Octobre 2020</li>
+                                        <li>Auteur: Kay Garland</li>
+                                    </ul>
+									<button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fa fa-search mr-1"></i>
+										<a class="portfolio-link sources" data-toggle="modal" href="#sourcesTunisie">
+                                        Les sources de cet article
+										</a>
+                                    </button>
+									<br/>
+									<br/>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Retour à la page principale
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 4-->
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">Russie</h2>
+                                    <p class="item-intro text-muted">Une liberté d'expression muselée</p>
+                                    <img class="img-fluid d-block mx-auto" src="images/alexei-navalny-le-5.jpg" alt="Alexei Navalny Manifestation" />
+                                    <p>La Russie ou de son nom complet la Fédération de Russie est <b>l’état le plus vaste de la planète</b> et est <b>l’héritier</b> de l’Union des Républiques Socialistes Soviétiques depuis l’année 90 où elle déclare son indépendance. La Russie est dans <b>une constante évolution</b> laissant peu à peu l’héritage soviétique derrière elle en s’ouvrant au monde. Cependant, en trente ans, cet état a vu sa liberté d’expression stagner pour que de nos jours, la Russie soit déclarée 149 <i>(Le 28/12/20)</i> sur 180 pays sur un classement de la liberté de la presse d’après <i>Reporters Sans Frontières</i> montrant encore la place du patrimoine soviétique dans cette puissance mondiale.</p>
+                                    <BR></BR>
+                                    <p>Pourtant, de 1990 aux milieux des années 2000, la Russie avait fait de réels progrès en terme de liberté d’expression à travers les médias traditionnels qui étaient les principaux moyens de partage de l’informations tel que les journaux, la télévision ou encore la radio. La liberté était telle que certains journalistes <b>doutaient</b> de la véracité de celle-ci.</p>
+                                    <BR></BR>
+                                    <img class="img-fluid d-block mx-auto" src="images/Poutine.jpg" alt="Poutine"/>
+                                    <small class="text-muted text-center">Photo Yuri Kochetov. Reuters</small><br></br>
+                                    <p>Cependant peu à peu avec l’arrivée de Vladimir Poutine signalé comme l’Ours rongeant les libertés individuelles, la censure a pris de plus en plus place dans le pays.</p>
+                                    <BR></BR>
+                                    <p>En ce qui concerne les médias conventionnels comme la radio et la télévision, l’état Russe possède en partie des chaînes et des fréquences où l’information est contrôlée afin d’en faire l’éloge du système politique actuel. On peut citer par exemple les protestations contre les élections de 2011 déclarées <b>plusieurs semaines</b> après les éléctions afin de retarder la prise de conscience des Russes.</p>
+                                    <BR></BR>
+                                    <p>Du côté du cinéma ou du théâtre, d’autres faits de censure ont été dévoilés afin d’y annuler des représentations.</p>
+                                    <p>Du côté d’Internet, la Russie possède sont propre moteur de recherches ou plusieurs réseaux sociaux, le plus utilisé, VK, le Facebook Russe. L’Etat Russe passe depuis une dizaine d’années, de plus en plus de lois afin de <b>contrôler les données sur Internet</b>. Dans un premier temps, les fournisseurs d’accès Internet dont certains appartiennent à l’Etat ont pour <b>obligation</b> de garder l’historique de navigateur de chaque utilisateur. Dans un second temps, afin de « lutter contre les extrémistes », ils peuvent <b>se permettre de bloquer l’accès</b> à des sites internet « d’extrémistes » qui sont surtout classés contre des opposants à Vladimir Poutine par l'opposition.</p>
+                                    <BR></BR>
+                                    <img class="img-fluid d-block mx-auto" src="images/Dehors.jpg" alt="Poutine Dehors ! Mouvement de manifestation" />
+                                    <small class="text-muted text-center">Photo AFP</small><br></br>
+                                    <p>L’Etat Russe possède la mainmise sur les médias traditionnels et sur Internet mais aussi dans les rues. De nombreuses manifestations contre Vladimir Poutine n’ont pas été acceptées et fortement réprimées par la police comme le mouvement « Vladimir Poutine dehors ». L’opposition est mise à mal par le gouvernement, les histoires d’emprisonnement abusif, de meurtre ou d’empoisonnement sont légion en Russie : Boris Nemtsov, Alexei Navalny, Natalia Estemirova ou encore Alexandre Litvinenko, une liste non-exhaustive. De la même manière, les manifestations pour le droit des LGBT connaissent le même sort.</p>
+                                    <BR></BR>
+                                    <p><b>Vladimir Poutine étend son pouvoir en détriment de la liberté d’expression de ces compatriotes russes qui, d’après l’organisation des RSF, note que la situation en Russie s’aggrave chaque année.</b></p>
+
+                                    <ul class="list-inline">
+                                        <li>Date: Décembre 2020</li>
+                                        <li>Auteur: Diana Petersen</li>
+                                    </ul>
+									<button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fa fa-search mr-1"></i>
+										<a class="portfolio-link sources" data-toggle="modal" href="#sourcesRussie">
+                                        Les sources de cet article
+										</a>
+                                    </button>
+									<br/>
+									<br/>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Retour à la page principale
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 5-->
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">Vietnam</h2>
+                                    <p class="item-intro text-muted">Les géants du Web à la botte du Gouvernement</p>
+                                    <p>Le Viêtnam est officiellement une <b>république socialiste</b> depuis 1976. Cependant, la république vietnamienne ne partage pas. En effet le seul parti autorisé dans le pays est le <b>Parti Communiste</b> du Viêtnam depuis les années 1980. De nos jours, le Viêtnam a décidé de s’ouvrir sur le monde, surtout économiquement. Cependant certaines pratiques ne se sont pas modernisées dans le pays, bien au contraire, c’est le cas de la <b>liberté d’expression</b> au Viêtnam.<br></p>
+                                     <img class="img-fluid d-block mx-auto" src="images/jourpris.jpg" alt="Le journalistes Truong Duy Nhat condamné à 10 ans de prison" />
+                                     <p>La liberté d’expression n’a jamais eu une réelle place au Viêtnam depuis l’issue de la guerre, avec l’accession des communistes au pouvoir. Bien qu’en apparence l’<b>offre médiatique semble vaste et diverse</b>, en réalité une immense majorité de ces médias <b>appartiennent au parti </b>ou sont sous son influence. Ainsi le Parti Communiste possède pas moins de <b>600 journaux</b>, une <b>centaine de postes de radio</b> et <b>chaînes de télévision</b>. Selon Amnesty international, la situation au sujet de la liberté d’expression dans le pays est alarmante. La législation évolue régulièrement sur ce sujet, mais pour chaque pas en avant, l’Etat recul encore plus.</p>
+                                     <img class="img-fluid d-block mx-auto" src="images/journal.jpg" alt="Tas de journaux locaux" />
+                                     <p>En 2013 le pouvoir en place publie un décret <b>interdisant le partage d’article de presse en ligne</b>. Puis en 2016, la situation évolue dans le bon sens puisque le Viêtnam <b>autorise l’accès pour les citoyens aux informations « qui ne sont pas interdites par l’Etat »</b> ou encore de <b>participer à des activités journalistiques</b>. <br> Mais la situation s’est <b>dégradé de manière catastrophique</b> ces deux dernières années depuis que <b>Nguyễn Phú Trọng</b> est arrivé au pouvoir en 2018. Le nouveau président vietnamien à décidé de mettre la loi au goût du jour en prenant <b>le contrôle du Web au Viêtnam</b>. Concernant la liberté d’expression sur Internet, Amnesty International accuse <b>Google et Facebook d’aider le gouvernement vietnamien </b>dans sa censure contre les opposants politiques. Des deux géants du web accusés, le PDG de Facebook <b>Mark Zuckerberg a déjà publiquement admis </b>collaborer avec le gouvernement vietnamien. On peut le voir sur cette vidéo d'Amnesty International, répondre à la question d’une sénatrice américaine : </p>
+
+                                     <div class="embed-responsive embed-responsive-16by9">
+  									<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/rN7aV4fkAuY" allowfullscreen></iframe>
+									</div>
+
+                                     <p><br> On estime que 95 % des demandes de censures du gouvernement local sont réalisées, et 90% de ces censures affectent directement Youtube. On estime également à environ <b>1000% l’augmentation des demandes de censures </b>de la part du gouvernement. L’Etat a aussi massivement investi dans <b>10 000 cyber-soldats en 2 ans</b> afin de combattre les opposants politiques en ligne. De plus, depuis 2019, le Viêtnam oblige les compagnies du numérique à stocker leurs données sur le sol vietnamien pour pouvoir <b>les réclamer à volonté</b>.</p>
+                                     <img class="img-fluid d-block mx-auto" src="images/nguyen.jpg" alt=" Le blogueur Nguyen Van Dai  lors de son procès | Président de l'Etat de la république socialiste du Viêt Nam" />
+                                     <p>Si on jette à présent un œil au monde de la <b>culture</b>, les relations avec le pouvoir local sont très différentes comparées à ce que l’on connaît. Par exemple, il est inimaginable pour un artiste local de <b>critiquer</b> dans une œuvre une <b>décision politique</b>, le pouvoir en général, la <b>police</b> ou bien parler de <b>sexe et de drogue</b>.</p>
+                                     <img class="img-fluid d-block mx-auto" src="images/wowy.jpg" alt="Wowy rappeur vietnamien, militant pour la liberté de la presse dans sont pays" />
+                                     <p>La liberté d’expression dans le pays est habilement contrôlée et <b>muselée par l’Etat</b>. Ainsi, il conserve autant que possible une <b>image immaculée </b>auprès d’une bonne partie de la population tout en lui laissant le champ libre. Les <b>manifestations violemment réprimées</b> sont nombreuses mais <b>absentes du web local</b>. L’Etat possède le monopole et exerce un <b>contrôle absolu de l’information</b> dans le pays au détriment des <b>droits de l’Hommes</b> comme l’a rappelé <b>Barack Obama sur place</b> il y a quelques années.</p>
+                         			<div class="embed-responsive embed-responsive-16by9">
+  									<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/LP5mCFIul2E" allowfullscreen></iframe>
+									</div>
+									<br>
+                                    <ul class="list-inline">
+                                        <li>Date: Septembre 2020</li>
+                                        <li>Auteur: Larry Parker</li>
+                                    </ul>
+									<button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fa fa-search mr-1"></i>
+										<a class="portfolio-link sources" data-toggle="modal" href="#sourcesVietnam">
+                                        Les sources de cet article
+										</a>
+                                    </button>
+									<br/>
+									<br/>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Retour à la page principale
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 6-->
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project Details Go Here-->
+                                    <h2 class="text-uppercase">Notre prochain article</h2>
+                                    <p class="item-intro text-muted">Quand la réalité n'est pas ce qu'elle semble ...</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/06-full.jpg" alt="full" />
+                                    <p>Dans notre prochain article, vous retrouverez un article dénoncant la manipulation de l'information via les modifications d'images.</p>
+									<p>Avec des logiciels de montage, il est possible de modifier des vidéos ou images et ainsi de faire croire à ce que l'on souhaite ... </p>
+                                    <ul class="list-inline">
+                                        <li>Date: prochainement disponible</li>
+                                        <li>Auteur: Kay Garland </li>
+                                    </ul>
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Retour à la page principale
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+		<!-- Sources Norvege-->
+		<div class="portfolio-modal modal fade" id="sourcesNorvege" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+								<h2 class="text-uppercase">Norvège</h2>
+                                <p class="item-intro text-muted">Les sources de cet article</p>
+								<img class="img-fluid d-block mx-auto" src="images/sources.jpg" alt="sources" />
+								<p>Article du Taurillon sur la liberté de la presse en Norvège : <a target="_blank" href="https://www.taurillon.org/norvege-eldorado-de-la-presse"> https://www.taurillon.org/norvege-eldorado-de-la-presse</a></p>
+                                <p>Classement de RSF de la Norvège :<br/><a target="_blank" href="https://rsf.org/fr/norvege">https://rsf.org/fr/norvege</a></p>
+                                <p>INA | La revue des médias | Liberté de la presse : pourquoi les pays nordiques sont des modèles journalistiques<br/><a target="_blank" href="https://larevuedesmedias.ina.fr/liberte-de-la-presse-pourquoi-les-pays-nordiques-sont-des-modeles-journalistiques">https://larevuedesmedias.ina.fr/liberte-de-la-presse-pourquoi-les-pays-nordiques-sont-des-modeles-journalistiques</a></p>
+								<button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+										<a class="portfolio-link sources" data-toggle="modal" href="#portfolioModal1">
+                                        Retour à l'article
+										</a>
+                                    </button>
+									<br/>
+									<br/>													
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Retour à la page principale
+                                    </button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Sources USA-->
+		<div class="portfolio-modal modal fade" id="sourcesUSA" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+								<h2 class="text-uppercase">Etats-Unis</h2>
+                                <p class="item-intro text-muted">Les sources de cet article</p>
+								<img class="img-fluid d-block mx-auto" src="images/sources.jpg" alt="sources" />
+								<p>Article d'Amnesty Inertnational sur le respect des droits aux USA : <br/><a target="_blank" href="https://www.amnesty.fr/pays/etats-unis"> https://www.amnesty.fr/pays/etats-unis</a></p>
+								<p>Aux USA, le journal New York Times a dû retirer de son journal une caricature à la suite de menaces : <br/><a target="_blank" href="https://www.contrepoints.org/2019/06/11/346628-liberte-de-la-presse-le-new-york-times-abdique-face-aux-pressions">https://www.contrepoints.org/2019/06/11/346628-liberte-de-la-presse-le-new-york-times-abdique-face-aux-pressions</a></p>
+								<p>Bilan des violences subites par les journalistes aux Etats-Unis : <br/><a target="_blank" href="https://pressfreedomtracker.us/"> https://pressfreedomtracker.us/</a></p>
+								<p>Raaport réalisé par l'Ambassade américaine francaise sur la liberté d'expression aux Etats-Unis : <br/><a target="blank" href=" https://photos.state.gov/libraries/amgov/133183/french/1304_Freedom_of_Expression_UnitedStates_French_Digital.pdf"> https://photos.state.gov/libraries/amgov/133183/french/1304_Freedom_of_Expression_UnitedStates_French_Digital.pdf</a></p>
+								<p>Affaire Julian Assange contre les Etats-Unis : <br/><a target="blank" href="https://www.amnesty.fr/liberte-d-expression/actualites/extradition-julian-assange-aux-etats-unis-rejetee"> https://www.amnesty.fr/liberte-d-expression/actualites/extradition-julian-assange-aux-etats-unis-rejetee</a></p>
+								<p>Classement de RSF des Etats-Unis : <br/><a target="blank" href="https://rsf.org/fr/etats-unis">https://rsf.org/fr/etats-unis</a></p>
+								<button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+										<a class="portfolio-link sources" data-toggle="modal" href="#portfolioModal2">
+                                        Retour à l'article
+										</a>
+                                    </button>
+									<br/>
+									<br/>													
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Retour à la page principale
+                                    </button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Sources Tunisie-->
+		<div class="portfolio-modal modal fade" id="sourcesTunisie" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+								<h2 class="text-uppercase">Tunisie</h2>
+                                <p class="item-intro text-muted">Les sources de cet article</p>
+								<img class="img-fluid d-block mx-auto" src="images/sources.jpg" alt="sources" />
+								<p>Classement de RSF de la Tunisie : <br/><a target="blank" href="https://rsf.org/fr/tunisie">https://rsf.org/fr/tunisie</a></p>
+								<br/>
+								<p>Article d'Amnesty International sur l'évolution de la liberté d'expression en Tunisie : <br/><a target="blank" href="https://www.amnesty.org/fr/latest/news/2020/11/tunisia-freedom-of-expression-at-risk-as-prosecutions-rise/">https://www.amnesty.org/fr/latest/news/2020/11/tunisia-freedom-of-expression-at-risk-as-prosecutions-rise/</a></p>
+								<br/>
+								<p>Recul de la liberté d'expression en Tunisie : <br/><a target="blank" href="https://fr.tunisia-press.net/la-liberte-dexpression-est-menacee-en-tunisie-estime-amnesty-international/"> https://fr.tunisia-press.net/la-liberte-dexpression-est-menacee-en-tunisie-estime-amnesty-international/</a></p>
+								<br/>
+								
+								<button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+										<a class="portfolio-link sources" data-toggle="modal" href="#portfolioModal3">
+                                        Retour à l'article
+										</a>
+                                    </button>
+									<br/>
+									<br/>													
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Retour à la page principale
+                                    </button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Sources Russie-->
+		<div class="portfolio-modal modal fade" id="sourcesRussie" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+								<h2 class="text-uppercase">Russie</h2>
+                                <p class="item-intro text-muted">Les sources de cet article</p>
+                                <img class="img-fluid d-block mx-auto" src="images/sources.jpg" alt="Carnet de sources" />
+                                <p>Article wikipédia posant les bases sur le pays de la Russie.<br/><a target="_blank" href="https://fr.wikipedia.org/wiki/Russie" class="link">https://fr.wikipedia.org/wiki/Russie</a></p>
+								<br/>
+								<p>La répression de la liberté d'expression par les lois.<br/><a target="_blank" href="https://www.hrw.org/fr/news/2017/07/18/russie-repression-de-la-liberte-dexpression" class="link">https://www.hrw.org/fr/news/2017/07/18/russie-repression-de-la-liberte-dexpression</a></p>
+								<br/>
+								<p>Partie d'un livre sur la liberté de la presse.<br/><a target="_blank" href="https://www.cairn.info/revue-droit-et-societe-2016-2-page-437.html" class="link">https://www.cairn.info/revue-droit-et-societe-2016-2-page-437.html</a></p>
+								<br/>
+								<p>Projet de loi sur le contrôle de l'internet.<br/><a target="_blank" href="https://www.la-croix.com/Monde/Europe/En-Russie-projet-loi-renforce-controle-lexpression-Internet-2018-09-19-1200970050" class="link">https://www.la-croix.com/Monde/Europe/En-Russie-projet-loi-renforce-controle-lexpression-Internet-2018-09-19-1200970050</a></p>
+								<br/>
+								<p>Projet de loi sur le contrôle de l'internet.<br/><a target="_blank" href="https://lactualite.com/monde/conflit-en-ukraine-le-facebook-russe-dans-la-tourmente/" class="link">https://lactualite.com/monde/conflit-en-ukraine-le-facebook-russe-dans-la-tourmente/</a></p>
+								<br/>
+								<p>Le sort des opposants en Russie.<br/><a target="_blank" href="https://www.leparisien.fr/international/assassines-emprisonnes-exiles-le-triste-sort-des-opposants-dans-la-russie-de-poutine-27-03-2017-6799731.php" class="link">https://www.leparisien.fr/international/assassines-emprisonnes-exiles-le-triste-sort-des-opposants-dans-la-russie-de-poutine-27-03-2017-6799731.php</a></p>
+								<br/>
+								<button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+										<a class="portfolio-link sources" data-toggle="modal" href="#portfolioModal4">
+                                        Retour à l'article
+										</a>
+                                    </button>
+									<br/>
+									<br/>													
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Retour à la page principale
+                                    </button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Sources Vietnam-->
+		<div class="portfolio-modal modal fade" id="sourcesVietnam" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+								<h2 class="text-uppercase">Viêtnam</h2>
+                                <p class="item-intro text-muted">Les sources de cet article <br></p>
+                                
+                                <p>Un article de Reporters Sans Frontières évoquant les récentes réformes concernant la liberté d'expression sur Internet au Vietnam.<br><a target="_blank" href="https://rsf.org/fr/actualites/vietnam-la-france-doit-interpeller-le-chef-du-parti-communiste-sur-la-repression-de-la-liberte-de-la" class="link">https://rsf.org/fr/actualites/vietnam-la-france-doit-interpeller-le-chef-du-parti-communiste-sur-la-repression-de-la-liberte-de-la</a></p>
+								<br>
+                                <p>Classement de la liberté d'expression dans le monde par pays de Reporters Sans Frontières, avec un résumé de la situation au Vietnam.<br><a target="_blank" href="https://rsf.org/fr/vietnam" class="link">https://rsf.org/fr/vietnam</a></p>
+                                <br>
+								<p>Le Temps nous renseigne sur les agissements des 2 géants du web que sont Google et Facebook dans le pays.<br><a target="_blank" href="https://www.letemps.ch/monde/amnesty-international-alerte-censure-facebook-google-vietnam" class="link">https://www.letemps.ch/monde/amnesty-international-alerte-censure-facebook-google-vietnam</a></p>
+								<br>
+                                <p>Un dossier très complet de l'Ecole Normale Supérieur de Lyon traitant de l'autoritarisme de la République Vietnam dans son ensemble.<br><a target="_blank" href="http://geoconfluences.ens-lyon.fr/informations-scientifiques/dossiers-regionaux/asie-du-sud-est/articles-scientifiques/vietnam-regime-autoritaire" class="link">http://geoconfluences.ens-lyon.fr/informations-scientifiques/dossiers-regionaux/asie-du-sud-est/articles-scientifiques/vietnam-regime-autoritaire</a></p>
+                                <br> 
+                                <p>Le New York Times nous informe détention d'un américain après avoir refjoint une manifestation au Vietnam.<br><a target="_blank" href="https://www.nytimes.com/2018/06/14/world/asia/will-nguyen-vietnam-american-protest.html" class="link">https://www.nytimes.com/2018/06/14/world/asia/will-nguyen-vietnam-american-protest.html</a></p>
+                                <br>  
+                                <p>Un article d'Amnesty international évoquant le cas de 5 manifestant pacifique condamné au Vietnam.<br><a target="_blank" href="https://www.amnesty.org/fr/latest/news/2018/10/viet-nam-relentless-crackdown-freedom-speech-five-more-jailed/" class="link">https://www.amnesty.org/fr/latest/news/2018/10/viet-nam-relentless-crackdown-freedom-speech-five-more-jailed/</a></p>
+								<br>
+								<button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+										<a class="portfolio-link sources" data-toggle="modal" href="#portfolioModal5">
+                                        Retour à l'article
+										</a>
+                                    </button>
+									<br/>
+									<br/>													
+                                    <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                        <i class="fas fa-times mr-1"></i>
+                                        Retour à la page principale
+                                    </button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Contact form JS-->
+        <script src="assets/mail/jqBootstrapValidation.js"></script>
+        <script src="assets/mail/contact_me.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+		<!--Srcoll JS -->
+		<script>$('.modal').on("hidden.bs.modal", function (e) { 
+			if ($('.modal:visible').length) { 
+				$('body').addClass('modal-open');
+			}
+		});
+		</script>
+    </body>
+</html>

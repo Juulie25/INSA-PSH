@@ -1,0 +1,19 @@
+.masthead {
+	display: none;
+}
+
+.mobilehead {
+	height: auto;
+	width: 100%;
+	display: block;
+	padding-top: 100px;
+}
+
+.sources{
+	color : white;
+}
+
+.sources:hover {
+	text-decoration : none;
+	color : white;
+}
