@@ -1,8 +1,13 @@
+-> BANDEAU 
 * changer la taille de la police du bandeau 
+* faire en sorte que les titres des parties tiennent sur une ligne
 * choisir les titres du bandeau 
+
+-> GRAPHISME
 * définir une palette de couleur 
+
+-> CONTENU 
 * trouver des images 
-* trouvre un logo ? 
 * changer la disposition des cadres 
 * changer le texte des parties 
 * changer les images des auteurs 
