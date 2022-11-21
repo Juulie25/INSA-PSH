@@ -10178,9 +10178,9 @@ header.masthead .masthead-heading {
   }
 }
 #portfolio .portfolio-item {
-  max-width: 25rem;
-  margin-left: auto;
-  margin-right: auto;
+    max-width: 25rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 #portfolio .portfolio-item .portfolio-link {
   position: relative;
@@ -10567,6 +10567,5 @@ section#contact form#contactForm :-ms-input-placeholder {
     background-color: hsla(5, 76%, 62%, .8);
     background-color: hsla(var(--cd-color-3-h), var(--cd-color-3-s), var(--cd-color-3-l), 0.8)
 }
-	
 	
 	
