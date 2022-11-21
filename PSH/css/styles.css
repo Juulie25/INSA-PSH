@@ -393,7 +393,7 @@ h4, .h4 {
 
 h5, .h5 {
   font-size: 1.25rem;
-  color: #5DB7DE;
+  color: #23AE7F;
 }
 
 h6, .h6 {
@@ -2448,7 +2448,7 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #5DB7DE;
+  background-color: #23AE7F;
 
 }
 .btn-primary:hover {
@@ -6147,11 +6147,11 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  background-color: #F1E9DB !important;
+  background-color: #ECEFE6 !important;
 }
 
 .bg-light2 {
-  background-color: #eae1d1 !important;
+  background-color: #E0E8D9 !important;
 }
 
 a.bg-light:hover, a.bg-light:focus,
@@ -9793,7 +9793,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #5DB7DE !important;
+  color: #23AE7F !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -10074,7 +10074,7 @@ img::-moz-selection {
   font-size: 0.75rem;
   color: #fff;
   text-transform: uppercase;
-  background-color: #5DB7DE;
+  background-color: #23AE7F;
   border: 0;
 }
 #mainNav .navbar-brand {
@@ -10094,7 +10094,7 @@ img::-moz-selection {
   letter-spacing: 0.0625em;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #5DB7DE;
+  color: #23AE7F;
 }
 
 @media (min-width: 992px) {
@@ -10532,7 +10532,7 @@ section#contact form#contactForm :-ms-input-placeholder {
     right: 39px;
     z-index: 98;
     padding: 21px;
-    background-color: #5DB7DE;
+    background-color: #23AE7F;
     border-radius: 30px;
 }
 
