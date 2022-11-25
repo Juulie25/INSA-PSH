@@ -7,7 +7,11 @@
 * trouver des images 
 * changer le texte des parties 
 * changer les images des auteurs 
+* ajouter les sources
 
 * l.143 : ajouter background pour avoir comme un fil de lecture entre les divs
-* changer la couleur des + lors du survol (passage de bleu à ?/#23AE7F)
+* élargir les zones de textes dans les popups 
+* changer le logo de l'onglet 
+* supprimer la partie "contactez-nous" 
+
 
