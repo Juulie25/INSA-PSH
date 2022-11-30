@@ -1,8 +1,3 @@
--> BANDEAU 
-* changer la taille de la police du bandeau 
-* faire en sorte que les titres des parties tiennent sur une ligne
-* choisir les titres du bandeau 
-
 -> CONTENU 
 * trouver des images 
 * changer le texte des parties 
