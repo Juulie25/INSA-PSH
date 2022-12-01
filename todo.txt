@@ -9,4 +9,10 @@
 * changer le logo de l'onglet 
 * supprimer la partie "contactez-nous" 
 
+* supprimer le bloc "contexte actuel"
+* rajouter un bloc "la législation des armes"
+* bloc "Le marché contrôlé et régulé des armes" : légal et illégal
+
+* justifier le texte des blocs
+
 
