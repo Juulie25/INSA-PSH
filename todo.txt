@@ -15,4 +15,6 @@
 
 * justifier le texte des blocs
 
+-> RELECTURE
+* relire tout le texte
 
