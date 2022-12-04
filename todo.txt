@@ -5,15 +5,8 @@
 * ajouter les sources
 
 * l.143 : ajouter background pour avoir comme un fil de lecture entre les divs
-* élargir les zones de textes dans les popups 
 * changer le logo de l'onglet 
-* supprimer la partie "contactez-nous" 
 
-* supprimer le bloc "contexte actuel"
-* rajouter un bloc "la législation des armes"
-* bloc "Le marché contrôlé et régulé des armes" : légal et illégal
-
-* justifier le texte des blocs
 
 -> RELECTURE
 * relire tout le texte
